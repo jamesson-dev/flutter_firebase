@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Capyba App',
-      home: Dashboard(),
+      home: const Login(),
     );
   }
 }
